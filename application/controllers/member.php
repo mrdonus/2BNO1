@@ -6,12 +6,12 @@
 		}
 		public function index() 
 		{
-			$query = $this->db->get('member')->result();
+			//$query = $this->db->get('member')->result();
 		}
 		public function search()
 		{
-			$data = $this->input->get('data');
-			$query = $this->db->where('Mem_Name',$data)->get('member')->result();
+			//$data = $this->input->get('data');
+			//$query = $this->db->where('Mem_Name',$data)->get('member')->result();
 		}
 		public function add()
 		{
